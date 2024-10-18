@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #dcdcdc;
+}
+
+#container{
+    padding-block: 1rem;
+    background-color: #2553ff;
+    max-width: 700px;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+
+.imgCont{
+    width: 50%;
+    height: 60vh;
+}
+
+.imgCont > img{
+    height: 100%;
+    /* rotate: 20deg; */
+    /* width: 100%; */
+    margin-top: -4rem;
+}
+ 
+.formSide{
+    color: #fff;
+    width: 50%;
+}
+
+.formSide >h5{
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.formSide > h2{
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+form{
+    margin-top: 1rem;
+    width: 80%;
+}
+.inputInfo{
+    margin-bottom: 2rem;
+}
+
+label{
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.inputContainer{
+    border-bottom: 1px solid;
+    padding-block: .4rem;
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+}
+
+.inputContainer>span>{
+    font-size: 12px;
+}
+
+.inputContainer >input{
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn > button{
+    font-weight: 600;
+    border: none;
+    color: #4c6eff;
+    padding: .4rem 2rem;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.btn > a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+form > p> span{
+    color: #e7d647;
+    text-transform: capitalize;
+}
